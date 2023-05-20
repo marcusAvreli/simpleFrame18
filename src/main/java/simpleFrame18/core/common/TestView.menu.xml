@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- *********************************************************************************** -->
+<!-- *********************** MENUBAR AND TOOLBAR DEFINITION **************************** -->
+<!-- *********************************************************************************** -->
+<!-- * In this file you can define the menu-bar and the tool-bar of the view. Define   * -->
+<!-- * your own structure and hierarchy. Add icons and keystrokes to your items.       * -->
+<!-- *********************************************************************************** -->
+<menuBar>
+	<maintenance text="Maintenance">
+		<add text="add" enableToolButtonText="false" toolBarGroup="1" icon="org/viewaframework/widget/icon/fan/img/page/page_add.png" keyStroke="CTRL_A" />
+		<delete text="delete"  toolBarGroup="1"  icon="org/viewaframework/widget/icon/fan/img/door/page_delete.png" keyStroke="CTRL_D" />
+		<edit  text="edit" icon="org/viewaframework/widget/icon/fan/img/door/page_edit.png" keyStroke="CTRL_E" />
+	</maintenance>
+</menuBar>

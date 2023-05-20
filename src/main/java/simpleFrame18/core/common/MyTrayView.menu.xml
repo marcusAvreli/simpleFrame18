@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- *********************************************************************************** -->
+<!-- ****************************** TRAY ICON CONFIGURATION **************************** -->
+<!-- *********************************************************************************** -->
+<!-- **** In this file you can define the system tray icon for this application.       * -->
+<!-- *********************************************************************************** -->
+<trayIcon>
+	<leftMenu>
+		<sendMessage text="Send Message..."/>
+		<refresh text="Refresh Message List"/>
+		<delete text="delete" />
+		<edit  text="edit"/>
+		<separator/>
+		<configuration/>
+	</leftMenu>
+	<rightMenu>
+		<hiderestore text="Hide / Restore" icon="org/viewaframework/common/img/restore.png"/>
+		<remove/>
+	</rightMenu>
+</trayIcon>
